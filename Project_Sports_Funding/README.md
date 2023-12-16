@@ -49,7 +49,7 @@ Unit of Analysis: In our analysis, we have looked at two primary units of analys
 The diagram, which is presented below, shows step by step process utilized to generate final data which was used in visualization and further analysis
 
 
-![Process_Flow](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Proposal/project_deliverable_1_summary.png)
+![Process_Flow](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Proposal/project_deliverable_1_summary.png)
 ---
 In order to understand the performance of crowdfunding campaigns, the data was scraped from website https://sportfunder.com<br>
 * The website homepage shows cards for all campaigns with some basic info like date, expected and raised funds, supporters
