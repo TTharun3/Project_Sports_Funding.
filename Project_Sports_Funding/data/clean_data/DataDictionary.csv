@@ -1,0 +1,19 @@
+Attribute Name,Description,Data Type,Source,Data,Example
+Unnamed: 0,Index (Primary Key),Numeric (Integer),Self generated,[main_data_clean.csv](data/clean_data/main_data_clean.csv),This is the primary key for the data points
+CampaignName,Name of the campaigner,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Name of the campaign creator
+SportName,Name of the sport,Nominal,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Provides the type of sport for which the campaign is created
+ShortDescription,Short description about campaign,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Provides short description of the campaign which is present on the specific campaign page
+CampaignUrlClean,Link for the campaign page,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Provides link which lets you jump to the campaign page (Unique)
+Money Raised,amount raised,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Amount of money raised through campaign and stored as string with currency symbol
+Campaign URL cleaned,Cleaned campaign URL,character,Self generated,[main_data_clean.csv](data/clean_data/main_data_clean.csv),
+Profile URL cleaned,Cleaned Profile pic URL,character,Self generated,[main_data_clean.csv](data/clean_data/main_data_clean.csv),
+SportUrlClean,Link to search type of sport,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Provides link to search all the campaigns for similar type of sport
+number of supporters,Count of supporters,Numeric (Integer),https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),How many users are supporting the campaign?
+Per Fund Raised,Percentage of funds raised based on expected donation,Numeric,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Percentage of expected donation which has been raised
+City,City of the campaign,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),City from where the campaign is being run
+State,State of the campaign,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),State from where the campaign is being run
+Country,Country of the campaign,character,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Country from where the campaign is being run
+Currency,Type of currency for donations,Nominal,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Type of currency in which donations have been collected
+Amount,Amount of the donation,Numeric (Float),https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),"Amount of donation (In currency type mentioned in variable ""Currency"")"
+Team/Athelete,Type of campaign target,Nominal,https://sportfunder.com/,[main_data_clean.csv](data/clean_data/main_data_clean.csv),hold either of 2 values (Team/Athelete)
+Adjusted Amount,Adjusted amout of donation (In US dollars),Numeric (Float),Self generated,[main_data_clean.csv](data/clean_data/main_data_clean.csv),Amount of donation in USD (Adjusted by conversion rates for different currencies)
