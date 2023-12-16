@@ -726,8 +726,10 @@ After we arrived at our dataset consisting of words tagged to each sentiment, we
 Here are top words and the word cloud of words that are associated with Joy-Sadness, Positive-Negative, Trust-Fear sentiment pairs:
 
 <p align="center">
-    <img width="600" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/TopWords.png">
+    <img width="600" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/TopWords.png">
 </p>
+
+
 
  Wordclouds for all sentiments:
 
@@ -773,7 +775,7 @@ Here are top words and the word cloud of words that are associated with Joy-Sadn
 In addition to identifying the top words associated to a sentiment, we also looked at individual stories that have a high score for a particular sentiment to understand how the words align with what people actually say.
 	
 <p align="center">
-    <img width="800" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Text.png">
+    <img width="800" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Text.png">
 </p>
 
 As shown in the image above, we can see how the story tagged with a high sentiment score for Joy has words like Passion, Love and Success, while a story tagged with a high sentiment score for Fear has words like difficult, journey and fight being used.
@@ -783,11 +785,11 @@ To determine the overall sentiment, sentiment scores for specific sentiment pair
 Following bar charts show the percentage of sentiment scores for different sports and countries, with the sports that have a 100% sentiment value for one sentiment excluded.
 	
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/JoyPerc.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/JoyPerc.png">
 </p>
 
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/JoyPercCountry.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/JoyPercCountry.png">
 </p>
 
 
@@ -914,7 +916,7 @@ for topic_num in topic_num_list:
 ```
 
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/coherence_score.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/coherence_score.png">
 </p>
 
 * Based on the _u-mass_ score we find that the optimal number of topics is 8
@@ -945,13 +947,13 @@ vis
 ```
 
 * The most common words in the entire document are shown below: organization, push, help_spread, journey, success ...
-![commonwords-1](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/most_common_words.png)
+![commonwords-1](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/most_common_words.png)
 
 
 * The final topics are as below:
 
 <p align="center">
-    <img width="700" height="300" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topics_keywords.png">
+    <img width="700" height="300" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topics_keywords.png">
 </p>
 
 The salient topics are:
@@ -960,8 +962,8 @@ The salient topics are:
     <li> Topic 8 has the theme of journey and hardwork, it talks about how the donations will enable the athletes or teams to push and make the journey
 </ul>
 
-![topic-4](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topic_4.png)
-![topic-4](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topic_8.png)
+![topic-4](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topic_4.png)
+![topic-4](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/topic_modeling/final/topic_8.png)
 
 ## Correlating Sentiment Analysis and Topic Modelling Results
 
@@ -1012,7 +1014,7 @@ Checking the Distribution of Joy and Sad
 	plt.show()
 ```
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_joy_sad.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_joy_sad.png">
 </p>
 
 Checking the Distribution of Positive and Negative 
@@ -1037,7 +1039,7 @@ Checking the Distribution of Positive and Negative
 	plt.show()
 ```
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_pos_neg.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_pos_neg.png">
 </p>
 
 Checking the Distribution of Trust and Fear 
@@ -1062,7 +1064,7 @@ Checking the Distribution of Trust and Fear
 	plt.show()
 ```
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_Trust_Fear.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Dist_Trust_Fear.png">
 </p>
 
 
@@ -1123,7 +1125,7 @@ The code performs text classification using a Random Forest Classifier. It start
 **Joy and Sadness Confusion Matrix and Classification Report**
 
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Joy_Sad.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Joy_Sad.png">
 </p>
 
 The classification model achieved an overall accuracy of 99% in predicting emotions. It demonstrated high precision, recall, and F1-score for both the "joy" and "sadness" classes, indicating that the model successfully identified instances belonging to these classes. The confusion matrix shows that there were only a few misclassifications, with three instances each being incorrectly classified as "joy" and "sadness" respectively. Overall, the model performed exceptionally well in accurately predicting emotions.
@@ -1131,7 +1133,7 @@ The classification model achieved an overall accuracy of 99% in predicting emoti
 **Postive and Negative Confusion Matrix and Classification Report**
 
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Pos_Neg.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Pos_Neg.png">
 </p>
 
 The classification model achieved an overall accuracy of 99% in predicting sentiment (negative or positive). It showed high precision, recall, and F1-score for both the "negative" and "positive" classes, indicating accurate identification of instances belonging to these classes. The confusion matrix reveals that there were only a few misclassifications, with five instances incorrectly classified as "negative" and one instance incorrectly classified as "positive." Overall, the model performed exceptionally well in accurately predicting sentiment, with minimal errors
@@ -1139,7 +1141,7 @@ The classification model achieved an overall accuracy of 99% in predicting senti
 **Trust and Fear Confusion Matrix and Classification Report**
 
 <p align="center">
-    <img width="500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Trust_Fear.png">
+    <img width="500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/sentiment_analysis/Sentiment_Classification_Trust_Fear.png">
 </p>
 
 
@@ -1338,17 +1340,17 @@ analysis_df2_test <- anti_join(analysis_df2, analysis_df2_train, by='id')
 * Firstly, the dependent variable Success, shows that the class imbalance is preserved well in the test dataset. Secondly, the independent variable TeamorAthlete also has its distribution preserved in the test data
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/success_fail.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/success_fail.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/team_athlete.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/team_athlete.png">
 </p>
 
 
 **Statistical Summary of variables in Train and Test data** 
 * The statistical summaries shows that except for the Funding Goal variable, all the other numerical and categorical variables exhibit almost the same mean, median and standard deviations across both train and test datasets
-![stats-sampling](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/statistical_summary.png)
+![stats-sampling](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/data_sampling/statistical_summary.png)
 
 **T-tests of means**
 
@@ -1455,119 +1457,119 @@ test_df$logFundingGoalAdjusted <- log10(test_df$FundingGoalAdjusted + 1)
 Funding Goal: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fundinggoal_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fundinggoal_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fundinggoalQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fundinggoalQQplot.png">
 </p>
 
 NumSupporters: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/numsupporters_transformation_histogram.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/numsupporters_transformation_histogram.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/numsupportersQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/numsupportersQQplot.png">
 </p>
 
 Wordcount: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/wordcount_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/wordcount_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/wordcountQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/wordcountQQplot.png">
 </p>
 
 NarcissismFactor: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/narcissismfactor_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/narcissismfactor_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/narcissismfactorQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/narcissismfactorQQplot.png">
 </p>
 
 Joy: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/joy_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/joy_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/joyQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/joyQQplot.png">
 </p>
 
 Sadness: Transformation had only a marginal effect on the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/sadness_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/sadness_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/sadnessQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/sadnessQQplot.png">
 </p>
 
 Positive: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/positive_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/positive_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/positiveQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/positiveQQplot.png">
 </p>
 
 Negative: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/negative_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/negative_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/negativeQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/negativeQQplot.png">
 </p>
 
 Trust: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/trust_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/trust_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/trustQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/trustQQplot.png">
 </p>
 
 Fear: Transformation improved the distribution of the variable
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fear_transformation.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fear_transformation.png">
 </p>
 
 <p align="center">
-    <img width="780" height = "400" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fearQQplot.png">
+    <img width="780" height = "400" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/fearQQplot.png">
 </p>
 
 **Model Evaluation**
 
 * We evaluated multiple logistic regression models and looked at the Variance Inflation Factor metric to remove the variables that had high multicorrelation
 * Model 1 included all the independent variables. We see that the variables logWordcount and logPositive have high VIF values. This model is not stable.
-![model-1](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model1_highvif.png)
+![model-1](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model1_highvif.png)
 * Model 2 excludes logWordcount with the highest VIF. Still we see that logPositive has a VIF greater than 5 indicating high multicorrelation
-![model-1](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model2_highvif.png)
+![model-1](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model2_highvif.png)
 * Model 3 excluded both logWordcount and logPositive. We observe now that all the VIF values are less than 2.5 indicating low multicorrelation among variables. This model is stable and has a AIC of 272.71
-![model-1](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model3_final.png)
+![model-1](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/model3_final.png)
 
 **Final Model**
 
 * Based on the modeling results, we chose Model 3 as our final logistic regression model. We conducted ANOVA on Model 3 to confirm the significance of the effects. We see that the effects of logFundingGoalAdjusted, logTrust and logNegative are significant. <br>
 
 <p align="center">
-    <img width="600" height = "350" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/anova_model3_final.png">
+    <img width="600" height = "350" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/anova_model3_final.png">
 </p>
 
 
@@ -1609,7 +1611,7 @@ text(dectree1)
 
 As shown below the final decision tree is highly complex and cannot be used clearly to identify final decision rules
 
-![dectree-1](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/unpruneddecisiontree_model.png)
+![dectree-1](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/unpruneddecisiontree_model.png)
 
 **Pruning the Decision Tree**
 
@@ -1623,7 +1625,7 @@ plot(pruneddectree1)
 ```
 
 <p align="center">
-    <img width="500" height = "500" src="https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruning_tradeoffplot.png">
+    <img width="500" height = "500" src="https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruning_tradeoffplot.png">
 </p>
 
 
@@ -1639,12 +1641,12 @@ plot(pruneddectree2)
 text(pruneddectree2)
 ```
 
-![dectree-2](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruneddecisiontree_model.png)
+![dectree-2](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruneddecisiontree_model.png)
 
 **Results and Interpretation**
 
 The final decision tree with 12 terminal nodes and its significant rules are:
-![dectree-3](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruneddecisiontree_textmodel.png)
+![dectree-3](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/parameter_estimation/pruneddecisiontree_textmodel.png)
 
 
 The significant rules are:
@@ -1789,7 +1791,7 @@ for i in range(len(auc_score_models)):
 plt.show()
 ```
 
-![auc-nn](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/auc_scores.png)
+![auc-nn](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/auc_scores.png)
 
 * Accuracy is fairly high across all models:
 
@@ -1804,7 +1806,7 @@ for i in range(len(accuracy_models)):
     plt.text(accuracy_models[i], model_list[i], round(accuracy_models[i],3))
 plt.show()
 ```
-![acc-nn](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/accuracy.png)
+![acc-nn](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/accuracy.png)
 
 * The best performing model on AUC is also the best performing model 
 
@@ -1820,7 +1822,7 @@ for i in range(len(accuracy_models)):
 plt.show()
 ```
 
-![sen-nn](https://github.com/TTharun3/Project_Sports_Funding/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/sensitivity.png)
+![sen-nn](https://github.com/TTharun3/Projects_Public_View/blob/main/Project_Sports_Funding/assets/Visualizations/classification_NeuralNets/sensitivity.png)
 
 ## Conclusion and Discussion
 
